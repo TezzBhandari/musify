@@ -1,0 +1,18 @@
+@font-face {
+  font-family: proximaNova;
+  src: url("../fonts/Fontspring-DEMO-proximanova-regular.otf");
+}
+
+:root {
+  --var-primary-font: "proximaNova";
+  --var-body-background-color: #070606;
+  --var-primary-font-color: #ffffff;
+  --var-secondary-font-color: #a4a4a4;
+}
+
+html,
+body {
+  font-family: var(--var-primary-font);
+  background-color: var(--var-body-background-color);
+  color: var(--var-primary-font-color);
+}
