@@ -8,7 +8,92 @@
     <title>Musify</title>
   </head>
   <body>
-    <h1>musify</h1>
-    <img src="./images/cart.svg" alt="cart icon" width="10" height="10" />
+    <!-- HEADER SECTION  -->
+    <header>
+      <nav class="navbar">
+        <a href="/" class="navbar__brand">
+          <div class="navbar__logo">
+            <img src="./images/musify-logo.png" alt="musify logo" />
+          </div>
+        </a>
+        <div class="navbar__menu">
+          <a class="navbar__link navbar__active" href="#">home</a>
+          <a class="navbar__link" href="#">explore</a>
+          <a class="navbar__link" href="#">contact us</a>
+        </div>
+        <div class="navbar__right">
+          <div class="navbar__theme-toggler">
+            <div class="navbar__icon sun-icon">
+              <img src="./images/sun-icon.png" alt="sun icon" />
+            </div>
+            <div class="navbar__icon moon-icon">
+              <img src="./images/moon-icon.png" alt="sun icon" />
+            </div>
+          </div>
+          <div class="navbar__icon search-icon">
+            <img src="./images/search.svg" alt="search icon" />
+          </div>
+          <div class="navbar__icon cart-icon">
+            <img src="./images/cart.svg" alt="cart icon" />
+          </div>
+          <button class="btn btn-login">login</button>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="hero__top-container">
+          <h1 class="hero__title">let's dive in <span>music</span> world</h1>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            vel animi sapiente voluptates vero, ut neque dignissimos
+            reprehenderit hic, laboriosam ex necessitatibus consequatur quae
+            asperiores at possimus pariatur soluta deserunt?
+          </p>
+          <div class="hero_buttons">
+            <button class="btn btn-shop">shop now</button>
+            <button class="btn btn-cart">
+              <div class="hero__cart-icon">
+                <img src="./images/cart.svg" alt="cart icon" />
+              </div>
+              <span>add to cart</span>
+            </button>
+          </div>
+        </div>
+        <div class="hero__bottom-container">
+          <div class="arrow-down-wrapper">A</div>
+          <div class="featured-card-wrapper">
+            <div class="featured-card">
+              <div class="product-img">
+                <img src="./images/headphone-red.png" alt="red headphone" />
+              </div>
+              <p class="product-title">wireless headphones</p>
+              <div class="product-price">
+                <span class="discounted-price">$120</span>
+                <span class="marked-price">$185</span>
+              </div>
+            </div>
+            <div class="featured-card">
+              <div class="product-img">
+                <img src="./images/headphone-red.png" alt="red headphone" />
+              </div>
+              <p class="product-title">wireless headphones</p>
+              <div class="product-price">
+                <span class="discounted-price">$120</span>
+                <span class="marked-price">$185</span>
+              </div>
+            </div>
+            <div class="featured-card">
+              <div class="product-img">
+                <img src="./images/headphone-red.png" alt="red headphones" />
+              </div>
+              <p class="product-title">wireless headphones</p>
+              <div class="product-price">
+                <span class="discounted-price">$120</span>
+                <span class="marked-price">$185</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
